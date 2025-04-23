@@ -24,4 +24,6 @@ This repository provides a PL/SQL snippet to enforce a global read-only mode in 
 
 ---
 
+> **Note**: This code is AI-generated based on custom requirements. I am not a JavaScript expert; kindly contribute to improve and optimize it for better functionality.
+
 This process ensures secure and dynamic enforcement of read-only access for specific roles in your APEX application.
