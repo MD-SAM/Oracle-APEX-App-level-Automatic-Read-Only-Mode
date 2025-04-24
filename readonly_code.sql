@@ -1,5 +1,5 @@
 BEGIN
-  IF APEX_UTIL.PUBLIC_CHECK_AUTHORIZATION('Auditor') THEN
+  IF APEX_AUTHORIZATION.IS_AUTHORIZED('Auditor') THEN
     -- Set application item to track read-only status
     apex_util.set_session_state('APP_IS_READ_ONLY', 'Y');
     
